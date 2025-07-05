@@ -7,7 +7,7 @@ import os
 
 st.set_page_config(page_title="Prédiction de style artistique", layout="wide")
 
-dirs = os.listdir( path )
+dirs = os.listdir()
 
 # Print all the files and directories
 for file in dirs:
