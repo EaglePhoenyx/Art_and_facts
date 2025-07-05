@@ -3,11 +3,12 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras.preprocessing import image
 from PIL import Image
+import os
 
 st.set_page_config(page_title="Prédiction de style artistique", layout="wide")
 
 # === 1. Chargement du modèle ===
-os.listdir()
+os.listdir('.')
 def load_model():
     return tf.keras.models.load_model("MNV2_cafonctionne.keras")
     #return tf.keras.models.load_model("MobileNetV2_Final_model.keras")
