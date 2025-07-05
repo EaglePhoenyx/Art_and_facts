@@ -7,8 +7,14 @@ import os
 
 st.set_page_config(page_title="Prédiction de style artistique", layout="wide")
 
+dirs = os.listdir( path )
+
+# Print all the files and directories
+for file in dirs:
+   print(file)
+
 # === 1. Chargement du modèle ===
-print(os.pwd())
+
 def load_model():
     return tf.keras.models.load_model("MNV2_cafonctionne.keras")
     #return tf.keras.models.load_model("MobileNetV2_Final_model.keras")
