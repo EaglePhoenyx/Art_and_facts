@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title="Prédiction de style artistique", layout="wide")
 
 # === 1. Chargement du modèle ===
-
+!ls
 def load_model():
     return tf.keras.models.load_model("MNV2_cafonctionne.keras")
     #return tf.keras.models.load_model("MobileNetV2_Final_model.keras")
