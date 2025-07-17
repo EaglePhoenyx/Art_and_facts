@@ -14,7 +14,9 @@ for file in dirs:
    print(file)
 
 # === 1. Chargement du modèle ===
-model_path = os.path.join('notebooks','MNV2_cafonctionne.keras')
+model_training_height = 64
+model_training_width = 64
+#model_path = os.path.join('notebooks','MNV2_cafonctionne.keras')
 model_path = os.path.join('notebooks','MobileNetV2_Final_model_accval76.keras')
 print(model_path)
 def load_model():
@@ -139,7 +141,7 @@ class_context = {
 
 # === 3. Prédiction ===
 def predict_style(img_pil):
-    img_resized = img_pil.resize((96, 96))
+    img_resized = img_pil.resize((model_training_height, model_training_width))
     #img_array = image.img_to_array(img_resized) / 127.5 - 1.0
     img_array = tf.expand_dims(img_resized, axis=0)
     predictions = tf.nn.softmax(model.predict(img_array)[0]).numpy()
