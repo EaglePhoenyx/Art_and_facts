@@ -37,6 +37,11 @@ class_context = {
         'description': "Mouvement américain centré sur l'expression libre, gestuelle et émotionnelle.",
         'artistes': ['Jackson Pollock', 'Willem de Kooning']
     },
+   'Action_painting': {
+        'période': '1940–1960',
+        'description': "Sous-genre de l'expressionisme abstrait. Mouvement américain centré sur l'expression libre, gestuelle et émotionnelle.",
+        'artistes': ['Jackson Pollock', 'Willem de Kooning']
+    },
     'Art_Nouveau_Modern': {
         'période': '1890–1910',
         'description': "Style décoratif fluide inspiré de la nature, très ornemental.",
