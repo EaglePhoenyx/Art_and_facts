@@ -15,6 +15,7 @@ for file in dirs:
 
 # === 1. Chargement du modèle ===
 model_path = os.path.join('notebooks','MNV2_cafonctionne.keras')
+model_path = os.path.join('notebooks','MobileNetV2_Final_model_accval76.keras')
 print(model_path)
 def load_model():
     return tf.keras.models.load_model(model_path)
