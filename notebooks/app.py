@@ -38,8 +38,13 @@ class_context = {
         'artistes': ['Jackson Pollock', 'Willem de Kooning']
     },
    'Action_painting': {
-        'période': '1940–1960',
+        'période': 'à préciser',
         'description': "Sous-genre de l'expressionisme abstrait. Mouvement américain centré sur l'expression libre, gestuelle et émotionnelle.",
+        'artistes': ['Jackson Pollock', 'Willem de Kooning']
+    },
+   'Analytical_Cubism': {
+        'période': 'à préciser',
+        'description': "à préciser",
         'artistes': ['Jackson Pollock', 'Willem de Kooning']
     },
     'Art_Nouveau_Modern': {
@@ -56,6 +61,11 @@ class_context = {
         'période': '1950–1970',
         'description': "Abstraction américaine par larges aplats de couleurs vibrantes.",
         'artistes': ['Mark Rothko', 'Barnett Newman']
+    },
+   'Contemporary_Realism': {
+        'période': 'à préciser',
+        'description': "à préciser",
+        'artistes': ['Jackson Pollock', 'Willem de Kooning']
     },
     'Cubism': {
         'période': '1907–1914',
@@ -102,10 +112,20 @@ class_context = {
         'description': "Simplicité volontaire, absence de perspective académique.",
         'artistes': ['Henri Rousseau', 'Grandma Moses']
     },
+   'New_Realism': {
+        'période': 'à préciser',
+        'description': "à préciser",
+        'artistes': ['Jackson Pollock', 'Willem de Kooning']
+    },
     'Northern_Renaissance': {
         'période': '1430–1580',
         'description': "Précision du détail, symbolisme, techniques à l’huile.",
         'artistes': ['Jan van Eyck', 'Hieronymus Bosch']
+    },
+   'Pointillism': {
+        'période': 'à préciser',
+        'description': "à préciser",
+        'artistes': ['Jackson Pollock', 'Willem de Kooning']
     },
     'Pop_Art': {
         'période': '1955–1975',
@@ -122,20 +142,25 @@ class_context = {
         'description': "Représentation fidèle du quotidien, sans idéalisme.",
         'artistes': ['Gustave Courbet', 'Jean-François Millet']
     },
-    'Romanticism': {
-        'période': '1800–1850',
-        'description': "Émotion, sublime, nature sauvage, révolte.",
-        'artistes': ['Eugène Delacroix', 'Caspar David Friedrich']
-    },
     'Rococo': {
         'période': '1730–1780',
         'description': "Art décoratif léger, frivole, galant.",
         'artistes': ['Fragonard', 'Boucher']
     },
+   'Romanticism': {
+        'période': '1800–1850',
+        'description': "Émotion, sublime, nature sauvage, révolte.",
+        'artistes': ['Eugène Delacroix', 'Caspar David Friedrich']
+    },
     'Symbolism': {
         'période': '1880–1910',
         'description': "Imagerie onirique, mythologique ou spirituelle.",
         'artistes': ['Odilon Redon', 'Gustave Moreau']
+    },
+   'Synthetic_Cubism': {
+        'période': 'à préciser',
+        'description': "à préciser",
+        'artistes': ['Jackson Pollock', 'Willem de Kooning']
     },
     'Ukiyo_e': {
         'période': '1600–1900',
