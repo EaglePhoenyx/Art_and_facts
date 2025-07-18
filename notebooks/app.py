@@ -17,7 +17,8 @@ for file in dirs:
 model_training_height = 64
 model_training_width = 64
 #model_path = os.path.join('notebooks','MNV2_cafonctionne.keras')
-model_path = os.path.join('notebooks','MobileNetV2_Final_model_accval76.keras')
+#model_path = os.path.join('notebooks','MobileNetV2_Final_model_accval76.keras')
+model_path = os.path.join('notebooks','mobilenetV2_full_dataset_64x64_batchsize128_buffersize500_unfreeze20last.keras')
 print(model_path)
 def load_model():
     return tf.keras.models.load_model(model_path)
